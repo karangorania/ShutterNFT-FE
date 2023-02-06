@@ -165,7 +165,9 @@ export default function MintNFT() {
                     href={`https://mumbai.polygonscan.com/tx/${contractWriteData.hash}`}
                     rel="noreferrer"
                   >
-                    <button>View Mint Transaction</button>
+                    <button className="text-green-400">
+                      View Mint Transaction
+                    </button>
                   </a>
                 ) : contractWriteError ? (
                   <p>{contractWriteError.message}</p>
