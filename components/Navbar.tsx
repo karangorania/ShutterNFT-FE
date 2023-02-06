@@ -51,9 +51,11 @@ export default function Navbar() {
           </div>
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0 flex items-center">
-              <p className="text-white text-center mt-4 font-bold">
-                Shutter NFT
-              </p>
+              <Link className={styles.active} href="/">
+                <a className="text-white text-center mt-4 font-bold">
+                  Shutter NFT
+                </a>
+              </Link>
             </div>
           </div>
 
@@ -63,11 +65,6 @@ export default function Navbar() {
                 <Link className={styles.active} href="/mintNFT">
                   <a className="text-gray-200 hover:bg-green-300 hover:text-white px-3 py-2 rounded-md text-md font-medium">
                     Mint NFT
-                  </a>
-                </Link>
-                <Link className={styles.active} href="/videoPlayer">
-                  <a className="text-gray-200 hover:bg-green-300 hover:text-white px-3 py-2 rounded-md text-md font-medium">
-                    Video Player
                   </a>
                 </Link>
               </div>
@@ -81,11 +78,6 @@ export default function Navbar() {
           <Link className={styles.active} href="/mintNFT">
             <a className="bg-green-300 text-white block px-3 py-2 rounded-md text-base font-medium">
               Mint NFT
-            </a>
-          </Link>
-          <Link className={styles.active} href="/videoPlayer">
-            <a className="bg-green-300 text-white block px-3 py-2 rounded-md text-base font-medium">
-              View Video
             </a>
           </Link>
         </div>
