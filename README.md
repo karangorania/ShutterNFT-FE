@@ -10,7 +10,7 @@ Note : Only you can mint to wallet connected address not to others.
 - [Mohit Chandel](https://github.com/mohitchandel)
 - [Karan Goraniya](https://github.com/karangorania)
 
-## Shutter Contract Repo
+## ShutterNFT Contract Repo
 
 - [ShutterNFT Contract ](https://github.com/karangorania/ShutterNFT-Contract)
 
